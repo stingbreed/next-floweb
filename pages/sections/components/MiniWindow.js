@@ -4,6 +4,11 @@ import { Slide } from "react-awesome-reveal";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const MiniWindow = ({ isOpen, onRequestClose }) => {
+  const [isDivVisible, setDivVisible] = useState(false);
+
+  const toggleDiv = () => {
+    setDivVisible(!isDivVisible);
+  };
 
   const customStyles = {
     content: {
@@ -32,23 +37,25 @@ const MiniWindow = ({ isOpen, onRequestClose }) => {
       contentLabel="Mini Window"
       style={customStyles}
     >
-      <Slide direction="top">
+      <Slide direction="down">
         <div className="service-modal-div">
           <div className='modal-one'>
-            <a href="#" className="visible-div">
-              <span>WIRELINE SERVICES <ArrowForwardIosIcon className="modal-icon" /></span>
+            <a href="#" className="visible-div" onClick={toggleDiv}>
+              <span>WIRELINE <ArrowForwardIosIcon className="modal-icon" /></span>
             </a>
             <a href="#" className="visible-div">
-              <span>WELL TESTING SERVICES <ArrowForwardIosIcon className="modal-icon" /></span>
+              <span>WELL TESTING <ArrowForwardIosIcon className="modal-icon" /></span>
             </a>
             <a href="#" className="visible-div">
-              <span>WELLHEAD SERVICES <ArrowForwardIosIcon className="modal-icon" /></span>
+              <span>WELLHEAD <ArrowForwardIosIcon className="modal-icon" /></span>
             </a>
             <a href="#" className="visible-div">
               <span>TECHNICAL SUPPORT <ArrowForwardIosIcon className="modal-icon" /></span>
             </a>
           </div>
             <div className="modal-two">
+            <Slide>
+             {isDivVisible && (
               <div className="hidden-div">
                 <a href="#" className="link-with-hidden-div">
                   <span>Perforations <ArrowForwardIosIcon className="modal-icon" /></span>
@@ -84,6 +91,8 @@ const MiniWindow = ({ isOpen, onRequestClose }) => {
                   <span>Pressure Control Services (PCE) <ArrowForwardIosIcon className="modal-icon" /></span>
                 </a>
               </div>
+             )}
+             </Slide>
             </div>
         </div>
       </Slide>
