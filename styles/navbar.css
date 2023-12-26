@@ -1,0 +1,248 @@
+.navbar {
+    margin: 0;
+    padding: 0 2px;
+    height: auto;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    position: fixed;
+    width: 80%;
+    background: rgb(255, 255, 255, 0.9);
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.navbar.scrolled {
+    background: rgb(82, 91, 98);
+  }
+
+.mini-nav {
+    height: 3vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 45px;
+    overflow: hidden;
+    transition: height 0.3s ease, opacity 0.3s ease;
+}
+
+.mini-nav > a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+    font-size: 13px;
+    margin-top: auto;
+}
+
+.mini-nav > a:hover {
+    color: rgb(1, 162, 255);
+}
+
+.mini-nav.scrolled {
+    height: 0;
+    opacity: 0;
+}
+
+.main-nav {
+    margin: 0;
+    padding: 0;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.main-nav.scrolled {
+    height: 10vh;
+}
+
+.navbar-sections {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-img {
+    width: auto;
+    height: 60px;
+    background: white;
+    display: flex;
+}
+
+.one {
+    width: 25%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    transition: color 0.3s ease;
+}
+
+.two > a {
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    padding: 10px;
+    width: auto;
+    height: fit-content;
+    margin: 0;
+}
+
+.two > a:hover {
+    color: rgb(1, 162, 255);
+    box-shadow: 0 0 10px rgb(1, 162, 255);
+}
+
+.two.scrolled > a {
+    color: white;
+    border-bottom: 5px solid rgb(82, 91, 98);
+}
+
+.two.scrolled > a:hover {
+    color: white;
+    border-bottom: 5px solid white;
+    box-shadow: none;
+}
+
+.two > a > span {
+    margin-left: 5px;
+}
+
+.up-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+
+.three > a {
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.nav-login {
+    width: auto;
+    text-align: right;
+    color: black;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.login-icon {
+    font-size: 35px;
+}
+
+.nav-login:hover {
+    color: rgb(1, 162, 255);
+}
+
+.nav-login.scrolled {
+    color: white;
+}
+
+.nav-login.scrolled:hover {
+    color: rgb(1, 162, 255);
+}
+
+.nav-whistle {
+    text-align: center;
+    width: auto;
+    background: rgb(1, 162, 255);
+    padding: 15px 20px;
+    color: white;
+    margin-right: 60px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-whistle:hover {
+    background-color: #0056b3;
+}
+
+.nav-whistle.scrolled {
+    background: white;
+    color: black;
+}
+
+.nav-whistle.scrolled:hover {
+    background: rgba(1, 162, 255);
+    color: white;
+}
+
+
+/* LOGIN POPUP */
+
+.popup-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+}
+
+.popup-btn {
+    background: rgba(1, 162, 255);
+    height: 60px;
+    margin: 0;
+    border: none;
+    box-shadow: 0 0 5px black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.popup-btn:hover {
+    background: rgba(1, 162, 255, 0.7);
+    color: white;
+}
+
+.popup-close-btn {
+    width: 100%;
+    margin: 0;
+    height: 40px;
+    color: white;
+    background: rgba(255, 1, 1);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.popup-close-btn:hover {
+    background: rgba(255, 1, 1, 0.7);
+}
+
+.modal-login {
+    margin-right: 10px;
+}

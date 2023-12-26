@@ -1,0 +1,29 @@
+{
+  "name": "nextjs-course",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.19",
+    "@mui/material": "^5.14.20",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.7",
+    "@netlify/plugin-nextjs": "^4.41.3",
+    "@next/font": "^14.0.4",
+    "next": "^13.0.7",
+    "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.7",
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-scroll": "^1.9.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.1"
+  }
+}

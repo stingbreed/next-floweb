@@ -1,0 +1,141 @@
+.news-container {
+    height: 80vh;
+}
+
+.news-body {
+    height: 100%;
+    display: flex;
+}
+
+.news-header {
+    margin-bottom: 30px;
+}
+
+.news-upper-div {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.news-lower-div {
+    height: 100%;
+    width: 40%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.news-upper-upper {
+    height: 100%;
+    display: flex;
+    width: fit-content;
+    margin-right: 20px;
+}
+
+.news-upper-upper:hover {
+    box-shadow: 0 0 40px rgb(139, 167, 189);
+}
+
+.img-div {
+    background-image: url(/images/staff.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.content-div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    background: white;
+}
+
+.hech-two {
+    margin-bottom: 10px;
+}
+
+.news-para {
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.news-btn {
+    width: auto;
+    margin-right: auto;
+    padding: 15px 20PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 15px;
+    background: rgb(1, 162, 255);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.news-btn:hover {
+    color: ghostwhite;
+    background-color: #0056b3;
+}
+
+.feed-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 400px;
+}
+
+.feed-link {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.feed-link:hover {
+    color: rgb(1, 162, 255)
+}
+
+.feed-icon {
+    margin-right: 20px;
+    margin-bottom: auto;
+}
+
+.news-feed-btn {
+    width: auto;
+    margin-right: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    background: white;
+    color: black;
+    text-decoration: none;
+}
+
+.news-feed-btn:hover {
+    color: rgb(1, 162, 255);
+    background: white;
+}

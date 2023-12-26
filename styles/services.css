@@ -1,0 +1,71 @@
+.services-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.services-carousel {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    box-shadow: 0 0 40px rgb(139, 167, 189);
+}
+
+.services-img {
+    background-image: url(/images/staff.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.services-writeup {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;  
+}
+
+.service-header {
+    margin-bottom: 30px;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(82, 91, 98);
+    box-shadow: 0 0 40px rgb(139, 167, 189);
+    padding: 5px 20px;
+}
+
+.service-para {
+    width: 70%;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+    margin-right: auto;
+}
+
+.service-btn {
+    width: auto;
+    margin-right: auto;
+    font-size: 15px;
+    border: none;
+    background: rgb(1, 162, 255);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-btn:hover {
+    color: white;
+    background-color: #0056b3;
+}
