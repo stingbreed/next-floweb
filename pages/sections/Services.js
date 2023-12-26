@@ -2,16 +2,7 @@ import React from 'react'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Link from 'next/link';
 
-function Services() {
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
-  
+function Services() {  
   return (
     <div className="services-container">
         <div className="services-carousel">

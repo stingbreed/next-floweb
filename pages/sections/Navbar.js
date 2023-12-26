@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import MiscellaneousServicesIcon from '@mui/icons-material/MiscellaneousServices';
 import RequestQuoteIcon from '@mui/icons-material/RequestQuote';
 import NewspaperIcon from '@mui/icons-material/Newspaper';
@@ -11,12 +10,15 @@ import HomeIcon from '@mui/icons-material/Home';
 import MiniWindow from './components/MiniWindow';
 import Popup from './components/Popup';
 import Link from 'next/link';
+import { Fade } from "react-awesome-reveal";
 
 function Navbar() {
   const [scrolling, setScrolling] = useState(false);
   const [showExpandIcon, setShowExpandIcon] = useState(true);
   const [isMiniWindowOpen, setIsMiniWindowOpen] = useState(false);
   const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  // NAVBAR SCROLL
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,9 +46,13 @@ function Navbar() {
 
   const handleClick = () => {
     toggleExpandIcon();
-    openMiniWindow();
-  };
 
+    if (isMiniWindowOpen) {
+      closeMiniWindow();
+    } else {
+      openMiniWindow();
+    }
+  }
   const openPopup = () => {
     setIsPopupOpen(true);
   };

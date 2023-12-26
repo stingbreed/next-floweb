@@ -9,7 +9,7 @@
     font-size: 16px;
     position: fixed;
     width: 80%;
-    background: rgb(255, 255, 255, 0.9);
+    background: rgb(255, 255, 255);
     transition: background-color 0.3s ease;
     z-index: 1000;
 }
@@ -71,9 +71,11 @@
 
 .logo-img {
     width: auto;
-    height: 60px;
+    height: 55px;
     background: white;
     display: flex;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 .one {
@@ -113,12 +115,12 @@
 
 .two.scrolled > a {
     color: white;
-    border-bottom: 5px solid rgb(82, 91, 98);
+    border-bottom: 2px solid rgb(82, 91, 98);
 }
 
 .two.scrolled > a:hover {
     color: white;
-    border-bottom: 5px solid white;
+    border-bottom: 2px solid white;
     box-shadow: none;
 }
 
@@ -245,4 +247,48 @@
 
 .modal-login {
     margin-right: 10px;
+}
+
+
+
+/* SERVICE MODAL */
+
+.service-modal-div {
+    height: 70vh;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 40px rgb(139, 167, 189);
+}
+
+.modal-one {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+    gap: 5px;
+    background: rgb(82, 91, 98);
+    padding: 50px 0;
+    
+}
+
+.modal-one > a {
+    height: 6vh;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    width: fit-content;
+}
+
+.modal-one > a > span:hover {
+    border-bottom: 2px solid white;
+}
+
+.modal-one > a > span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    border-bottom: 2px solid rgb(82, 91, 98);
+    font-size: 14px;
 }
