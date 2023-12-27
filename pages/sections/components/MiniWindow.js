@@ -42,16 +42,16 @@ const MiniWindow = ({ isOpen, onRequestClose }) => {
         <div className="service-modal-div">
           <div className='modal-one'>
             <a href="#" className="visible-div" onClick={toggleDiv}>
-              <span>WIRELINE <ArrowForwardIosIcon className="modal-icon" /></span>
+              <span>WIRELINE <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
             </a>
             <a href="#" className="visible-div">
-              <span>WELL TESTING <ArrowForwardIosIcon className="modal-icon" /></span>
+              <span>WELL TESTING <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
             </a>
             <a href="#" className="visible-div">
-              <span>WELLHEAD <ArrowForwardIosIcon className="modal-icon" /></span>
+              <span>WELLHEAD <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
             </a>
             <a href="#" className="visible-div">
-              <span>TECHNICAL SUPPORT <ArrowForwardIosIcon className="modal-icon" /></span>
+              <span>TECHNICAL SUPPORT <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
             </a>
           </div>
             <div className="modal-two">
@@ -59,37 +59,37 @@ const MiniWindow = ({ isOpen, onRequestClose }) => {
              {isDivVisible ? (
               <div className="hidden-div">
                 <a href="#" className="link-with-hidden-div">
-                  <span>Perforations <ArrowForwardIosIcon className="modal-icon" /></span>
+                  <span>Perforations <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
                 </a>
                 <a href="#" className="link-with-hidden-div">
-                  <span>Pipe Recovery <ArrowForwardIosIcon className="modal-icon" /></span>
+                  <span>Pipe Recovery <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
                 </a>
                 <a href="#" className="link-with-hidden-div">
-                  <span>Production Logging <ArrowForwardIosIcon className="modal-icon" /></span>
+                  <span>Production Logging <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
                 </a>
                 <a href="#" className="link-with-hidden-div">
-                  <span>Plug Setting Services <ArrowForwardIosIcon className="modal-icon" /></span>
+                  <span>Plug Setting Services <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
                 </a>
                 <a href="#" className="link-with-hidden-div">
-                  <span>Magnetic Orienting Tool (MOT)<ArrowForwardIosIcon className="modal-icon" /></span>
+                  <span>Magnetic Orienting Tool (MOT)<ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
                 </a>
                 <a href="#" className="link-with-hidden-div">
-                  <span>Cement Bond Log (CBL) <ArrowForwardIosIcon className="modal-icon" /></span>
+                  <span>Cement Bond Log (CBL) <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
                 </a>
                 <a href="#" className="link-with-hidden-div">
-                  <span>Caliper Services <ArrowForwardIosIcon className="modal-icon" /></span>
+                  <span>Caliper Services <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
                 </a>
                 <a href="#" className="link-with-hidden-div">
-                  <span>Intelligent Perforations <ArrowForwardIosIcon className="modal-icon" /></span>
+                  <span>Intelligent Perforations <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
                 </a>
                 <a href="#" className="link-with-hidden-div">
-                  <span>Depth Correlation <ArrowForwardIosIcon className="modal-icon" /></span>
+                  <span>Depth Correlation <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
                 </a>
                 <a href="#" className="link-with-hidden-div">
-                  <span>TCP Services <ArrowForwardIosIcon className="modal-icon" /></span>
+                  <span>TCP Services <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
                 </a>
                 <a href="#" className="link-with-hidden-div">
-                  <span>Pressure Control Services (PCE) <ArrowForwardIosIcon className="modal-icon" /></span>
+                  <span>Pressure Control Services (PCE) <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
                 </a>
               </div>
              ) : null}
