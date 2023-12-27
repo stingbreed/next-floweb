@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const MiniWindow = ({ isOpen, onRequestClose }) => {
@@ -54,7 +55,7 @@ const MiniWindow = ({ isOpen, onRequestClose }) => {
             </a>
           </div>
             <div className="modal-two">
-            <Slide>
+            <Fade>
              {isDivVisible && (
               <div className="hidden-div">
                 <a href="#" className="link-with-hidden-div">
@@ -92,7 +93,7 @@ const MiniWindow = ({ isOpen, onRequestClose }) => {
                 </a>
               </div>
              )}
-             </Slide>
+             </Fade>
             </div>
         </div>
       </Slide>
