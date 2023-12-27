@@ -27,6 +27,7 @@
     box-shadow: 0 0 40px rgb(139, 167, 189);
     padding: 5px 20px;
     margin-right: auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 .contact-para {
@@ -34,7 +35,8 @@
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 25px;
-  font-weight: 600;
+  font-weight: bold;
+  font-family: 'Comfortaa', sans-serif;
 }
 
 .contact-btn {
@@ -51,6 +53,7 @@
   cursor: pointer;
   text-decoration: none;
   margin-right: auto;
+  font-family: 'Comfortaa', sans-serif;
 }
 
 .contact-btn:hover {
@@ -69,6 +72,7 @@
 
 .slick-header {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .slick-div {

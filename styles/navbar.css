@@ -5,7 +5,7 @@
     display: block;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     position: fixed;
     width: 80%;
@@ -52,7 +52,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .main-nav.scrolled {
@@ -275,7 +274,7 @@
     height: 6vh;
     text-decoration: none;
     padding: 0 20px;
-    width: 100%;
+    width: fit-content;
     color: black;
 }
 
@@ -325,6 +324,7 @@
     font-size: 14px;
     height: 100%;
     padding: 0 30px;
+    width: fit-content;
   }
 
   .link-with-hidden-div > span {

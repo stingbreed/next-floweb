@@ -11,7 +11,7 @@ function About() {
         <div className="about-top-div">
             <div className="about-div-body">
               <div className="about-icon">
-                <SpeedIcon className="icon-design" />
+                <SpeedIcon className="icon-design" style={{ fontSize: '100px' }} />
               </div>
               <div className="inner-div">
                 <h1 className="delivery-header">Service Delivery</h1>
@@ -23,7 +23,7 @@ function About() {
             </div>
             <div className="about-div-body">
               <div className="about-icon">
-                <HealthAndSafetyIcon className="icon-design" />
+                <HealthAndSafetyIcon className="icon-design" style={{ fontSize: '100px' }} />
               </div>
               <div className="inner-div">
                 <h1 className="delivery-header">Safety</h1>

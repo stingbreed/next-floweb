@@ -6,7 +6,7 @@ function Career() {
   return (
     <div className="career-container">
         <div className="career-body">
-            <h1 className="career-header">Your Professional Journey</h1>
+            <h1 className="career-header">Careers</h1>
             <p className="career-para">
             We are dedicated to fostering your career growth,
             empowering you to cultivate and refine 

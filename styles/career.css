@@ -22,7 +22,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    padding-left: 30px;
+    padding: 30px;
 }
 
 .career-header {
@@ -32,6 +32,8 @@
     color: rgb(82, 91, 98);
     box-shadow: 0 0 40px rgb(139, 167, 189);
     padding: 5px 20px;
+    font-family: 'Poppins', sans-serif;
+    width: fit-content;
 }
 
 .career-para {
@@ -39,7 +41,8 @@
     margin-bottom: 30px;
     font-size: 16px;
     line-height: 25px;
-    font-weight: 600;
+    font-weight: bold;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 .career-btn {
@@ -55,6 +58,7 @@
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 .career-btn:hover {

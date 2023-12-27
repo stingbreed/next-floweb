@@ -5,6 +5,7 @@
     align-items: center;
     padding-top: 100px;
     margin-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .about-header {
@@ -55,7 +56,6 @@
 .icon-design {
     padding: 0;
     margin: 0;
-    font-size: 100px;
 }
 
 .inner-div {
@@ -70,12 +70,14 @@
 .delivery-header {
     margin-bottom: 10px;
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .delivery-para {
     font-size: 15px;
     line-height: 25px;
-    font-weight: 600;
+    font-weight: bold;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 .about-bottom-div {
@@ -102,6 +104,7 @@
     cursor: pointer;
     margin-top: 20px;
     text-decoration: none;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 .about-link:hover {
