@@ -8,7 +8,7 @@ const MiniWindow = ({ isOpen, onRequestClose }) => {
   const [isDivVisible, setDivVisible] = useState(false);
 
   const toggleDiv = () => {
-    setDivVisible(!isDivVisible);
+    setDivVisible(prevIsDivVisible => !prevIsDivVisible);
   };
 
   const customStyles = {
@@ -56,7 +56,7 @@ const MiniWindow = ({ isOpen, onRequestClose }) => {
           </div>
             <div className="modal-two">
             <Fade>
-             {isDivVisible && (
+             {isDivVisible ? (
               <div className="hidden-div">
                 <a href="#" className="link-with-hidden-div">
                   <span>Perforations <ArrowForwardIosIcon className="modal-icon" /></span>
@@ -92,7 +92,7 @@ const MiniWindow = ({ isOpen, onRequestClose }) => {
                   <span>Pressure Control Services (PCE) <ArrowForwardIosIcon className="modal-icon" /></span>
                 </a>
               </div>
-             )}
+             ) : null}
              </Fade>
             </div>
         </div>
