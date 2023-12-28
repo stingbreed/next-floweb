@@ -48,7 +48,7 @@ function Contact() {
   return (
     <div className="contact-container">
       <div className="getin-touch">
-        <h1 className="contact-header">Reach out to us</h1>
+        <h1 className="contact-header">Contact us</h1>
         <p className="contact-para">Would you like to talk to us about our services?<br></br> We will be glad to hear from you.</p>
         <Link href="/contact" className="contact-btn">Get in touch&nbsp;&nbsp;&nbsp;<ArrowForwardIcon /></Link>
       </div>

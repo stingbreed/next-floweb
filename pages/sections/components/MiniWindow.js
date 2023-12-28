@@ -6,9 +6,16 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const MiniWindow = ({ isOpen, onRequestClose }) => {
   const [isDivVisible, setDivVisible] = useState(false);
+  const [isDivVisible2, setDivVisible2] = useState(false);
 
   const toggleDiv = () => {
     setDivVisible(prevIsDivVisible => !prevIsDivVisible);
+    setDivVisible2(false);
+  };
+
+  const toggleDiv2 = () => {
+    setDivVisible2(prevIsDivVisible2 => !prevIsDivVisible2);
+    setDivVisible(false);
   };
 
   const customStyles = {
@@ -44,7 +51,7 @@ const MiniWindow = ({ isOpen, onRequestClose }) => {
             <a href="#" className="visible-div" onClick={toggleDiv}>
               <span>WIRELINE <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
             </a>
-            <a href="#" className="visible-div">
+            <a href="#" className="visible-div" onClick={toggleDiv2}>
               <span>WELL TESTING <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
             </a>
             <a href="#" className="visible-div">
@@ -55,7 +62,7 @@ const MiniWindow = ({ isOpen, onRequestClose }) => {
             </a>
           </div>
             <div className="modal-two">
-            <Fade>
+            <Slide direction="left">
              {isDivVisible ? (
               <div className="hidden-div">
                 <a href="#" className="link-with-hidden-div">
@@ -93,7 +100,22 @@ const MiniWindow = ({ isOpen, onRequestClose }) => {
                 </a>
               </div>
              ) : null}
-             </Fade>
+             {isDivVisible2 ? (
+              <div className="hidden-div2">
+                <a href="#" className="link-with-hidden-div2">
+                  Bleed off package
+                </a><a href="#" className="link-with-hidden-div2">
+                  Flowback operation
+                </a>
+                <a href="#" className="link-with-hidden-div2">
+                  Clean up
+                </a>
+                <a href="#" className="link-with-hidden-div2">
+                  Multi rate test (MRT) 
+                </a>
+              </div>
+             ) : null}
+             </Slide>
             </div>
         </div>
       </Slide>

@@ -34,6 +34,7 @@
     text-decoration: none;
     color: #fff;
     transition: color 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .social-icons a:hover {

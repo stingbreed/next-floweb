@@ -28,6 +28,7 @@
     align-items: left;
     padding: 20px;
     font-family: 'Poppins', sans-serif;
+    justify-content: center;
 }
 
 .news-upper-upper {
@@ -62,17 +63,18 @@
 }
 
 .hech-two {
-    margin-bottom: 10px;
-    font-family: 'Comfortaa', sans-serif;
-    color: black;
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(82, 91, 98);
+    font-size: 20px;
 }
 
 .news-para {
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     font-size: 15px;
     line-height: 25px;
     font-weight: bold;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 
 .news-btn {
@@ -88,7 +90,7 @@
     color: white;
     font-weight: bold;
     cursor: pointer;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .news-btn:hover {
