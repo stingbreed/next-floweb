@@ -193,6 +193,7 @@
 .nav-whistle:hover {
     background-color: #0056b3;
     color: white;
+    box-shadow: none;
 }
 
 .nav-whistle.scrolled {
@@ -232,7 +233,7 @@
 }
 
 .popup-btn:hover {
-    background: rgba(1, 162, 255, 0.7);
+    background: #0056b3;
     color: white;
 }
 
@@ -241,10 +242,14 @@
     margin: 0;
     height: 40px;
     color: white;
-    background: rgba(255, 1, 1);
+    background: rgb(82, 91, 98);
     border: none;
     font-size: 20px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .popup-close-btn:hover {
@@ -322,6 +327,7 @@
     box-shadow: 0 0 40px rgb(139, 167, 189);
     z-index: 1;
     margin-left: 10px;
+    background: white;
   }
 
   .hidden-div2 {
@@ -335,6 +341,7 @@
     z-index: 1;
     margin-left: 10px;
     box-shadow: 0 0 40px rgb(139, 167, 189);
+    background: white;
   }
 
   .hidden-div2 > a {

@@ -10,7 +10,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import MiniWindow from './components/MiniWindow';
 import Popup from './components/Popup';
 import Link from 'next/link';
-import { Fade } from "react-awesome-reveal";
+
 
 function Navbar() {
   const [scrolling, setScrolling] = useState(false);
