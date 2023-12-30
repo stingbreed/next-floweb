@@ -21,11 +21,13 @@
 .mini-nav {
     height: 3vh;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
-    padding-right: 45px;
     overflow: hidden;
     transition: height 0.3s ease, opacity 0.3s ease;
+    width: 25%;
+    margin-left: auto;
+    padding: 0;
 }
 
 .mini-nav > a {
@@ -137,30 +139,31 @@
 
 .three {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 25%;
+    gap: 15px;
 }
 
 .three > a {
     text-decoration: none;
     font-size: 10px;
     font-weight: 500;
+    width: fit-content;
 }
 
 .nav-login {
     width: auto;
-    text-align: right;
     color: black;
     display: flex;
-    margin-left: auto;
-    margin-right: 20px;
     transition: color 0.3s ease;
     cursor: pointer;
+    margin-left: auto;
 }
 
 .login-icon {
     font-size: 35px;
+    margin-left: -10px;
 }
 
 .nav-login:hover {
@@ -178,9 +181,9 @@
 .nav-whistle {
     text-align: center;
     width: auto;
-    background: rgb(1, 162, 255);
+    box-shadow: 0 0 10px rgb(82, 91, 98);
     padding: 15px 20px;
-    color: white;
+    color: black;
     margin-right: auto;
     transition: background-color 0.3s ease;
     font-weight: bold;
@@ -189,6 +192,7 @@
 
 .nav-whistle:hover {
     background-color: #0056b3;
+    color: white;
 }
 
 .nav-whistle.scrolled {
