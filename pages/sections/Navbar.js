@@ -76,7 +76,9 @@ function Navbar() {
       </div>
       <div className={`main-nav ${scrolling ? 'scrolled' : ''}`}>
         <div className="navbar-sections one">
-          <img src="/images/logo.png" alt="Company Logo" className="logo-img" />
+        <Link href="/">
+          <img src="/images/logo.png" alt="Company Logo"  className={`logo-img ${scrolling ? 'scrolled' : ''}`} />
+        </Link>
         </div>
         <div className={`navbar-sections two ${scrolling ? 'scrolled' : ''}`}>
           <Link href="/" title="Home">

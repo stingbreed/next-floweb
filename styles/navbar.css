@@ -80,10 +80,16 @@
 .logo-img {
     width: auto;
     height: 55px;
-    background: white;
     display: flex;
     margin-bottom: auto;
     margin-top: auto;
+    box-shadow: 0 0 20px rgb(139, 167, 189);
+    cursor: pointer;
+}
+
+.logo-img.scrolled {
+    background: white;
+    box-shadow: none;
 }
 
 .one {
@@ -91,7 +97,6 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    
 }
 
 .two {
