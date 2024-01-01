@@ -3,12 +3,14 @@ import SpeedIcon from '@mui/icons-material/Speed';
 import HealthAndSafetyIcon from '@mui/icons-material/HealthAndSafety';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Link from 'next/link';
+import { Fade } from 'react-awesome-reveal';
 
 function About() {
   return (
     <div className="about-container">
         <p className="about-header">Why floSmart..?</p>
         <div className="about-top-div">
+          <Fade>
             <div className="about-div-body">
               <div className="about-icon">
                 <SpeedIcon className="icon-design" style={{ fontSize: '100px' }} />
@@ -33,6 +35,7 @@ function About() {
                 </p>
               </div>
             </div>
+          </Fade>
         </div>
         <div className="about-bottom-div"></div>
         <Link href="/about" className="about-link">EXPLORE MORE&nbsp;&nbsp;&nbsp;<ArrowForwardIcon />

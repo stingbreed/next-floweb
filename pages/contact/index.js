@@ -2,6 +2,7 @@ import React from 'react';
 import ContactForm from '../sections/components/ContactForm';
 import Navbar from '../sections/Navbar'
 import Footer from '../sections/Footer'
+import { Fade } from 'react-awesome-reveal';
 
 const ContactPage = () => {
   return (
@@ -49,7 +50,9 @@ const ContactPage = () => {
           ></iframe>
         </div>
       </div>
-      <ContactForm />
+      <Fade>
+        <ContactForm />
+      </Fade>
       <div className="footer-div">
           <Footer />
       </div>

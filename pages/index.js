@@ -11,6 +11,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { Fade } from 'react-awesome-reveal';
 
 const images = [
   '/images/oil.png',
@@ -65,21 +66,29 @@ function Home() {
         <div className="about-div">
           <About />
         </div>
-        <div className="service-div">
-          <Services />
-        </div>
-        <div className="news-div">
-          <News />
-        </div>
-        <div className="career-div">
-          <Career />
-        </div>
+        <Fade>
+          <div className="service-div">
+            <Services />
+          </div>
+        </Fade>
+        <Fade>
+          <div className="news-div">
+            <News />
+          </div>
+        </Fade>
+        <Fade>
+          <div className="career-div">
+            <Career />
+          </div>
+        </Fade>
         <div className="client-div">
           <Client />
         </div>
-        <div className="contact-div">
-          <Contact/>
-        </div>
+        <Fade>
+          <div className="contact-div">
+            <Contact/>
+          </div>
+        </Fade>
         <div className="footer-div">
           <Footer />
         </div>
