@@ -21,20 +21,22 @@ const MiniWindow = ({ isOpen, onRequestClose }) => {
   const customStyles = {
     content: {
       width: '80%',
-      top: '-6vh',
+      top: 'auto',
       padding: '0',
       border: 'none',
       height: '70vh',
       position: 'relative',
       background: 'none',
       margin: 'auto',
-      left: '0'
+      left: '0',
+      zIndex: 900,
     },
     overlay: {
       background: 'none',
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
+      zIndex: 900,
     },
   };
 

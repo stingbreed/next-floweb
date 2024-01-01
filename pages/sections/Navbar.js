@@ -91,7 +91,7 @@ function Navbar() {
               <ExpandLessIcon onClick={toggleExpandIcon} className="up-down"/>
             )}
           </a>
-          <MiniWindow isOpen={isMiniWindowOpen} onRequestClose={closeMiniWindow} />
+          <MiniWindow isOpen={isMiniWindowOpen} onRequestClose={closeMiniWindow} className="position-modal"/>
           <a href="/news">
             <NewspaperIcon />
             <span>News</span>
@@ -105,15 +105,15 @@ function Navbar() {
             <span>Get Quote</span>
           </a>
          </div>
-          <div className={`navbar-sections three ${scrolling ? 'scrolled' : ''}`}>
-            <a className={`nav-login ${scrolling ? 'scrolled' : ''}`} title="Login" onClick={openPopup}>
-              <LoginIcon className="login-icon" />
-            </a>
-            <Popup isOpen={isPopupOpen} onRequestClose={closePopup} />
-            <a href="#" className={`nav-whistle ${scrolling ? 'scrolled' : ''}`}>Whistle Blowing</a>
-          </div>
+        <div className={`navbar-sections three ${scrolling ? 'scrolled' : ''}`}>
+          <a className={`nav-login ${scrolling ? 'scrolled' : ''}`} title="Login" onClick={openPopup}>
+            <LoginIcon className="login-icon" />
+          </a>
+          <Popup isOpen={isPopupOpen} onRequestClose={closePopup} />
+          <a href="#" className={`nav-whistle ${scrolling ? 'scrolled' : ''}`}>Whistle Blowing</a>
         </div>
       </div>
+    </div>
   );
 }
 

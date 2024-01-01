@@ -14,6 +14,10 @@ const Popup = ({ isOpen, onRequestClose }) => {
           padding: '0',
           border: 'none',
           background: 'none',
+          zIndex: 900,
+        },
+        overlay: {
+          zIndex: 900,
         },
       };
 

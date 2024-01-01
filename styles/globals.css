@@ -38,7 +38,6 @@ h6 {
 .presentation-div {
   background: none;
   position: absolute;
-  z-index: 500;
   height: 100%;
   width: 100%;
   display: flex;
@@ -46,6 +45,8 @@ h6 {
   justify-content: center;
   align-items: center;
   color: white;
+  z-index: 1;
+
 }
 
 .presentation-header {
