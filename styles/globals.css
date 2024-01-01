@@ -30,9 +30,52 @@ h6 {
   background: whitesmoke;
 }
 
-.operations-carousel {
+.navbar-div {
+  height: 11vh;
+  background: white;
+}
+
+.presentation-div {
+  background: none;
+  position: absolute;
+  z-index: 500;
+  height: 100%;
   width: 100%;
-  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.presentation-header {
+  margin: auto auto 0 50px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.presentation-btn {
+  width: fit-content;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 15px;
+  background: rgb(1, 162, 255);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin-right: auto;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.operations-carousel {
+  width: auto;
+  height: 80vh;
   overflow: hidden;
   position: relative;
 }
@@ -45,6 +88,7 @@ h6 {
 .top-slider-image {
   height: 100vh;
   object-fit: cover;
+  object-position: center;
   width: 100%;
 }
 

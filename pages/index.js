@@ -10,6 +10,7 @@ import Contact from './sections/Contact'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const images = [
   '/images/oil.png',
@@ -49,6 +50,10 @@ function Home() {
           <Navbar />
         </nav>
         <div className="operations-carousel">
+          <div className="presentation-div">
+            <p className="presentation-header">We Specialize In <br></br> Offshore & Onshore Oil & Gas Services</p>
+            <button className="presentation-btn">EXPLORE&nbsp;&nbsp;&nbsp;<ArrowForwardIcon /></button>
+          </div>
           <Slider {...slickSettings} className="carousel-item">
           {images.map((image, index) => (
             <div key={index}>

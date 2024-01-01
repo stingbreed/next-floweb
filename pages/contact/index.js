@@ -6,7 +6,7 @@ import Footer from '../sections/Footer'
 const ContactPage = () => {
   return (
     <div className="contact-page">
-        <nav>
+        <nav className="navbar-div">
           <Navbar />
         </nav>
       <div className="contact-cover">
@@ -23,7 +23,7 @@ const ContactPage = () => {
 
           <div className="address">
             <p>
-              <strong>Visit Us:</strong>Plot 88 Rivoc Road, Trans Amadi Port Harcourt, Rivers.
+              <strong>Visit Us:</strong> Plot 88 Rivoc Road, Trans Amadi Port Harcourt, Rivers.
             </p>
           </div>
 

@@ -1,7 +1,7 @@
 .navbar {
     margin: 0;
     padding: 0 2px;
-    height: auto;
+    height: 9vh;
     display: block;
     justify-content: space-between;
     align-items: center;
@@ -16,6 +16,7 @@
 
 .navbar.scrolled {
     background: rgb(82, 91, 98);
+    height: fit-content;
   }
 
 .mini-nav {
@@ -40,7 +41,7 @@
 }
 
 .mini-nav > a:hover {
-    color: rgb(1, 162, 255);
+    color: #0056b3;
 }
 
 .mini-nav.scrolled {
@@ -111,8 +112,8 @@
 }
 
 .two > a:hover {
-    color: rgb(1, 162, 255);
-    box-shadow: 0 0 10px rgb(1, 162, 255);
+    color: #0056b3;
+    box-shadow: 0 0 10px #0056b3;
 }
 
 .two.scrolled > a {
@@ -167,7 +168,7 @@
 }
 
 .nav-login:hover {
-    color: rgb(1, 162, 255);
+    color: #0056b3;
 }
 
 .nav-login.scrolled {
@@ -175,7 +176,7 @@
 }
 
 .nav-login.scrolled:hover {
-    color: rgb(1, 162, 255);
+    color: #0056b3;
 }
 
 .nav-whistle {
@@ -203,8 +204,8 @@
 }
 
 .nav-whistle.scrolled:hover {
-    background: #0056b3;
-    color: white;
+    background: white;
+    color: black;
     box-shadow: none;
 }
 
@@ -292,7 +293,7 @@
 }
 
 .modal-one > a > span:hover {
-    color: rgb(1, 162, 255);
+    color: #0056b3;
 }
 
 .modal-one > a > span {
@@ -383,9 +384,9 @@
 }
 
   .link-with-hidden-div > span:hover {
-    color: rgb(1, 162, 255);
+    color: #0056b3;
   }
 
   .link-with-hidden-div2:hover {
-    color: rgb(1, 162, 255);
+    color: #0056b3;
   }
