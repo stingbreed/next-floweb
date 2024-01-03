@@ -57,10 +57,13 @@ const MiniWindow = ({ isOpen, onRequestClose }) => {
               <span>WELL TESTING <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
             </a>
             <a href="#" className="visible-div">
-              <span>WELLHEAD <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
+              <span>WELLHEAD</span>
             </a>
             <a href="#" className="visible-div">
-              <span>TECHNICAL SUPPORT <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
+              <span>DST/TCP Services</span>
+            </a>
+            <a href="#" className="visible-div">
+              <span>TECHNICAL SUPPORT</span>
             </a>
           </div>
             <div className="modal-two">
@@ -93,9 +96,6 @@ const MiniWindow = ({ isOpen, onRequestClose }) => {
                 </a>
                 <a href="#" className="link-with-hidden-div">
                   <span>Depth Correlation <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
-                </a>
-                <a href="#" className="link-with-hidden-div">
-                  <span>TCP Services <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
                 </a>
                 <a href="#" className="link-with-hidden-div">
                   <span>Pressure Control Services (PCE) <ArrowForwardIosIcon  style={{ fontSize: '14px' }} /></span>
