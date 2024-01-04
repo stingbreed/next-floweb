@@ -52,8 +52,9 @@ function Home() {
         </nav>
         <div className="operations-carousel">
           <div className="presentation-div">
-            <p className="presentation-header">We Specialize In <br></br> Offshore & Onshore Oil & Gas Services</p>
-            <button className="presentation-btn">EXPLORE&nbsp;&nbsp;&nbsp;<ArrowForwardIcon /></button>
+            <p className="presentation-header">PROVEN & TRUSTED<br></br>SOLUTIONS FOR ENERGY</p>
+            <p className="presentation-para">We Specialize In <br></br> Offshore & Onshore Oil & Gas Services</p>
+            <button className="presentation-btn">EXPLORE floSmart&nbsp;&nbsp;&nbsp;<ArrowForwardIcon /></button>
           </div>
           <Slider {...slickSettings} className="carousel-item">
           {images.map((image, index) => (

@@ -6,7 +6,7 @@
 }
 
 .services-carousel {
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     box-shadow: 0 0 40px rgb(139, 167, 189);
@@ -42,11 +42,11 @@
 }
 
 .service-para {
-    width: 70%;
+    width: 80%;
     margin-bottom: 30px;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 25px;
-    font-weight: bold;
+    font-weight: 600;
     margin-right: auto;
     font-family: 'Manrope', sans-serif;
 }

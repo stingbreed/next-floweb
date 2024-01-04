@@ -32,7 +32,7 @@ const Popup = ({ isOpen, onRequestClose }) => {
       <div>
         <div className="popup-links">
             <a href="https://flosmart.azurewebsites.net/Account/Login" target="_blank" className="popup-btn"><LoginIcon className="login-icon modal-login" />O.M.S</a>
-            <a href="#" className="popup-btn"><LoginIcon className="login-icon modal-login" />S.M.S</a>
+            <a href="#" className="popup-btn"><LoginIcon className="login-icon modal-login" />A.C.S</a>
         </div>
         <button onClick={onRequestClose} className="popup-close-btn"><CloseIcon />Close</button>
       </div>

@@ -1,7 +1,7 @@
 .navbar {
     margin: 0 auto;
     padding: 0;
-    height: 9vh;
+    height: 12vh;
     display: block;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +27,7 @@
     align-items: center;
     overflow: hidden;
     transition: height 0.3s ease, opacity 0.3s ease;
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     padding: 0;
     margin-right: auto;
@@ -54,12 +54,12 @@
 .main-nav {
     margin: 0 auto;
     padding: 0;
-    height: 8vh;
+    height: fit-content;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: white;
-    width: 80%;
+    width: 90%;
 }
 
 .main-nav.scrolled {
@@ -79,11 +79,11 @@
 
 .logo-img {
     width: auto;
-    height: 55px;
+    height: 60px;
     display: flex;
     margin-bottom: auto;
     margin-top: auto;
-    box-shadow: 0 0 20px rgb(139, 167, 189);
+    box-shadow: -5px 0 20px #e7ebf4;
     cursor: pointer;
 }
 
@@ -114,7 +114,7 @@
     display: flex;
     align-items: center;
     color: black;
-    font-size: 14px;
+    font-size: 16px;
     padding: 10px;
     width: auto;
     height: fit-content;
@@ -123,7 +123,7 @@
 
 .two > a:hover {
     color: #0056b3;
-    box-shadow: 0 0 10px #0056b3;
+    box-shadow: 0 0 5px #0056b3;
 }
 
 .two.scrolled > a {
@@ -192,8 +192,7 @@
 }
 
 .nav-whistle {
-    text-align: center;
-    width: auto;
+    width: fit-content;
     box-shadow: 0 0 10px rgb(82, 91, 98);
     padding: 15px 20px;
     color: black;

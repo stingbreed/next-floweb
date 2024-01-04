@@ -75,10 +75,11 @@
 }
 
 .delivery-para {
-    font-size: 15px;
-    line-height: 25px;
-    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
     font-family: 'Manrope', sans-serif;
+    width: 95%;
 }
 
 .about-bottom-div {
