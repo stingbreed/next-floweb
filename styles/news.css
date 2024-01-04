@@ -40,7 +40,7 @@
 }
 
 .news-upper-upper:hover {
-    box-shadow: 0 0 40px rgb(139, 167, 189);
+    box-shadow: 0 0 10px rgb(139, 167, 189);
 }
 
 .img-div {
@@ -108,7 +108,7 @@
 }
 
 .news-lower-div:hover {
-    box-shadow: 0 0 40px rgb(139, 167, 189);
+    box-shadow: 0 0 10px rgb(139, 167, 189);
 }
 
 .feed-link {
